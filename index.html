@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Maker</title>
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Button Maker</h1><small><sup>by Aasheesh Agarwal</sup></small>
+        <p>
+            Github Repo: <a href="//github.com/e-coders/ButtonMaker" target="_blank">e-coders/ButtonMaker</a>
+            <br>
+            Make button designs in minutes with this Button Maker tool by Aasheesh Agarwal!
+            <br>
+            ⚠️WARNING!! Some features are not supported in some themes. Outlines are not supported in HTML Classic Buttons and 3D Buttons. HTML Classic Buttons can never contain any color theme. 3D Buttons don't support Outlines.
+            <br>
+            Content is directly shown in the result. Click on the Copy Code button so the code will be copied to clipboard.
+        </p>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+            <div class="inputs">
+                <div class="form-group">
+                    <label>Content</label>
+                    <input type="text" class="form-control"required simple id="content" value="A Simple Button!">
+                </div>
+                <div class="form-group">
+                    <label>Width</label>
+                    <br>
+                    <input type="number" class="form-control d-inline"required half-little id="width" value="102">
+                    <span class="d-inline">
+                        <span class="hidden">--</span>
+                        px
+                    </span>
+                </div>
+                <div class="form-group">
+                    <label>Theme</label>
+                    <select class="form-control" half id="theme">
+                        <option disabled>Please choose the theme of the button...</option>
+                        <option selected>HTML Classic Button</option>
+                        <option>Bootstrap Button</option>                        
+                        <option>3D Button</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Color Theme</label>
+                    <select class="form-control" half id="colorTheme">
+                        <option disabled>Please choose the color theme...</option>
+                        <optgroup label="Background Fills">
+                            <option selected>Blue</option>
+                            <option>Red</option>
+                            <option>Yellow</option>
+                            <option>Green</option>
+                            <option>Light</option>
+                            <option>Grey</option>
+                            <option>Light Blue</option>
+                            <option>Dark</option>
+                        </optgroup>
+                        <optgroup label="Outlines">
+                            <option>Blue (outline)</option>
+                            <option>Red (outline)</option>
+                            <option>Yellow (outline)</option>
+                            <option>Green (outline)</option>
+                            <option>Light (outline)</option>
+                            <option>Grey (outline)</option>
+                            <option>Light Blue (outline)</option>
+                            <option>Dark (outline)</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <button class="btn btn-primary">Copy Code</button>
+            </div>
+        </div>
+        <div class="col-md-6">
+        <div class="output">
+            <br><br><br><br><br><br><br><br>
+            <center>
+                <button id="result" class="result">A Simple Button!</button>
+            </center>
+        </div>
+        </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"defer></script>
+</body>
+</html>

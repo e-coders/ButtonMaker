@@ -1,0 +1,29 @@
+body{
+	padding-top: 24px;
+}
+div.form-group{
+	margin-bottom: 1rem;
+}
+div.form-group label{
+	margin-bottom: 0.2rem;
+}
+div.form-group input[simple]{
+	width: 100%;
+}
+div.form-group input[half-little]{
+	width: 92%;
+}
+[half]{
+	width: 100%;
+}
+span.hidden{
+	user-select: none;
+	color: transparent;
+}
+div.output{
+	background-color: white;
+	border: 1px solid rgba(211, 211, 211, 0.2);
+	box-shadow: 0 16px 48px rgba(211,211,211,0.5);
+	padding: 8px;
+	height: 30rem;
+}

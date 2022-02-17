@@ -1,0 +1,97 @@
+/* BOOTSTRAP COLORS START */
+:root{--bs-blue:#0d6efd;--bs-indigo:#6610f2;--bs-purple:#6f42c1;--bs-pink:#d63384;--bs-red:#dc3545;--bs-orange:#fd7e14;--bs-yellow:#ffc107;--bs-green:#198754;--bs-teal:#20c997;--bs-cyan:#0dcaf0;--bs-white:#fff;--bs-gray:#6c757d;--bs-gray-dark:#343a40;--bs-gray-100:#f8f9fa;--bs-gray-200:#e9ecef;--bs-gray-300:#dee2e6;--bs-gray-400:#ced4da;--bs-gray-500:#adb5bd;--bs-gray-600:#6c757d;--bs-gray-700:#495057;--bs-gray-800:#343a40;--bs-gray-900:#212529;--bs-primary:#0d6efd;--bs-secondary:#6c757d;--bs-success:#198754;--bs-info:#0dcaf0;--bs-warning:#ffc107;--bs-danger:#dc3545;--bs-light:#f8f9fa;--bs-dark:#212529;--bs-primary-rgb:13,110,253;--bs-secondary-rgb:108,117,125;--bs-success-rgb:25,135,84;--bs-info-rgb:13,202,240;--bs-warning-rgb:255,193,7;--bs-danger-rgb:220,53,69;--bs-light-rgb:248,249,250;--bs-dark-rgb:33,37,41;--bs-white-rgb:255,255,255;--bs-black-rgb:0,0,0;--bs-body-color-rgb:33,37,41;--bs-body-bg-rgb:255,255,255;}
+/* BOOTSTRAP COLORS END */
+
+button.button-3d{
+    margin:10px;
+    border-right:0;
+    border-left:0;
+    border-top:0;
+    font-size:24px;
+    padding:8px;
+    color:rgba(255, 255, 255, 0.788);
+}
+button.button-3d:active{
+    border-bottom:0;
+}
+button.button-3d{
+    cursor:pointer;
+}
+
+
+/* COLOR THEMES */
+/* GREY */
+.button-3d-grey{
+    border-bottom:3px solid #2e2e2e;
+    background-color: #828387;
+}
+.button-3d-grey:active{
+    border-top:3px solid #2e2e2e;
+}
+
+/* BLUE */
+.button-3d-blue{
+    border-bottom:3px solid #01184f;
+    background-color: #346beb;
+}
+.button-3d-blue:active{
+    border-top:3px solid #01184f;
+}
+
+/* LIGHT BLUE */
+.button-3d-lightblue{
+    border-bottom:3px solid #01184f;
+    background-color: #346beb;
+    filter: opacity(70%);
+}
+.button-3d-lightblue:active{
+    border-top:3px solid #01184f;
+}
+
+/* RED */
+.button-3d-red{
+    border-bottom:3px solid rgb(117, 28, 28);
+    background-color: rgb(248, 91, 91);
+}
+.button-3d-red:active{
+    border-top:3px solid rgb(117, 28, 28);
+}
+
+/* ORANGE */
+.button-3d-orange{
+    border-bottom:3px solid rgb(90, 51, 0);
+    background-color: rgb(202, 91, 0);
+}
+.button-3d-orange:active{
+    border-top:3px solid rgb(90, 51, 0);
+}
+
+/* GREEN */
+.button-3d-green{
+    border-bottom:3px solid rgb(12, 59, 16);
+    background-color: rgb(74, 139, 85);
+}
+.button-3d-green:active{
+    border-top:3px solid rgb(12, 59, 16);
+}
+
+/* YELLOW */
+.button-3d-yellow{
+    border-bottom:3px solid rgb(83, 71, 3);
+    background-color: rgb(180, 169, 70);
+}
+.button-3d-yellow:active{
+    border-top:3px solid rgb(83, 71, 3);
+}
+
+/* DARK */
+.button-3d-dark{
+    border-bottom:3px solid saddlebrown;
+    background-color: black;
+    color: white;
+}
+.button-3d-dark:active{
+    border-top:3px solid saddlebrown;
+}
+
+
